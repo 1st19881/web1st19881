@@ -5,84 +5,65 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap5 cdn -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
   <title>ยินดีตอนรับเข้าสู่เว็บไซต์ 1st19881 </title>
 </head>
 
 <body>
-  <div class="container">
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">about</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <br>
-
-
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active border border-dark" data-bs-interval="1000">
-          <img src="img/dummy_900x400_ffffff_cccccc.png" class="d-block w-100" height="auto" width="auto">
-        </div>
-        <div class="carousel-item border border-dark" data-bs-interval="1000">
-          <img src="img/dummy_900x400_ffffff_cccccc.png" class="d-block w-100" height="auto" width="auto">
-        </div>
-        <div class="carousel-item border border-dark" data-bs-interval="1000">
-          <img src="img/dummy_900x400_ffffff_cccccc.png" class="d-block w-100" alt="img/1.png" height="auto"
-            width="auto">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top " style=" transition: top 0.4s;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <br>
 
+  <img
+    src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+    alt="" class="imgbg" width="100%">
 
-    <br>
-    <br>
-    
-    <marquee direction="down" scrollamount="10">
-      <h1 class="text-center m-5 mt-5  p-4">ยินดีตอนรับเข้าสู่เว็บไซต์ 1st19881</h1>
+  <div class="container">
+ 
+    <marquee direction="down" scrollamount="5">
+      <h1 class="text-center m-5 mt-5  p-4 text-white">ยินดีตอนรับเข้าสู่เว็บไซต์ 1st19881</h1>
     </marquee>
-    
+
     <hr>
 
     <div class="row">
       <div class="d-flex justify-content-start p-3 ">
-        <h3 class="text-white bg-warning p-3">ผลงาน</h3>
+        <h3 class="text-white bg-warning p-3">ตัวอย่างผลงาน</h3>
       </div>
       <div class="col-md-4 mb-4 mt-3">
         <div class="card">
-          <img class="img-fluid img-thumbnail" src="img/1.png" alt="">
+          <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" alt="">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -92,7 +73,7 @@
       </div>
       <div class="col-md-4 mb-4 mt-3">
         <div class="card">
-          <img class="img-fluid img-thumbnail" src="img/1.png" alt="">
+          <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" alt="">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -102,7 +83,7 @@
       </div>
       <div class="col-md-4 mb-4 mt-3">
         <div class="card">
-          <img class="img-fluid img-thumbnail" src="img/1.png" alt="">
+          <img class="img-fluid img-thumbnail" src="https://images.unsplash.com/photo-1599507593548-0187ac4043c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" alt="">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -121,12 +102,20 @@
 
 
 
-
+  <script src="app.js"></script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+
+    <footer class="mt-5">
+      <div class="d-flex justify-content-center bg-dark p-4">
+        <h5 class="text-white">Copyright &copy; 1stDev 2021 </h5>
+      </div>
+    </footer>
+    
 </body>
 
 </html>
